@@ -1,0 +1,1267 @@
+
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # clear
+Hi3798MV200:/ # logcat -c
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # logcat | grep bt
+
+
+
+09-19 18:17:50.672  3913  5710 D HiStatistic_netinfo: postdata:IwOo1So9iWuUr2tRBcZ6H6Gw16Qt83/xebH+ICqvQ^C
+130|Hi3798MV200:/ # 
+130|Hi3798MV200:/ # 
+130|Hi3798MV200:/ # logcat -c
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # clear
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # logcat -c
+Hi3798MV200:/ # 
+Hi3798MV200:/ # 
+Hi3798MV200:/ # logcat -c
+Hi3798MV200:/ # logcat
+--------- beginning of main
+09-19 18:18:43.669  4580  5209 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:18:45.055  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:18:45.061  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+cfg80211: Calling CRDA to update world regulatory domain
+09-19 18:18:47.451  1703  2156 I         : [himedia.CameraController]: uevent : change@/devices/platform/regulatory.0.
+09-19 18:18:47.452  1703  2156 I         : [himedia.CameraController]: uevent type = 0.
+09-19 18:18:47.452  1696  1832 I AOService: hdmi_observer  change@/devices/platform/regulatory.0
+09-19 18:18:47.462  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:47.473  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:47.481  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:47.489  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:47.497  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:47.506  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:47.514  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:47.526  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:47.535  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=72- MASK=0x29d87
+09-19 18:18:47.544  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=72- MASK=0x29d87
+09-19 18:18:47.551  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=80- MASK=0x29d87
+09-19 18:18:47.557  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:47.560  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=80- MASK=0x29d87
+09-19 18:18:47.562  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:47.568  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:18:47.570  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:18:47.582  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:18:47.650  2632  2642 I art     : Background sticky concurrent mark sweep GC freed 50892(2MB) AllocSpace objects, 0(0B) LOS objects, 30% free, 6MB/9MB, paused 5.257ms total 88.504ms
+09-19 18:18:48.704  4580  4666 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:18:49.975  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:49.986  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:49.994  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:50.002  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:50.010  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:50.018  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:50.026  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:50.035  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:50.044  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=73- MASK=0x29d87
+09-19 18:18:50.052  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=73- MASK=0x29d87
+09-19 18:18:50.060  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:50.064  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=83- MASK=0x29d87
+09-19 18:18:50.065  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:50.069  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:18:50.072  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=83- MASK=0x29d87
+09-19 18:18:51.653  3887  4137 I turen   : [R2][00:02:20.800] [core/R2VbvCtc.cpp    228] vbv total time cost: 23895
+09-19 18:18:51.653  3887  4137 I turen   : [R2][00:02:20.800] [core/R2VbvCtc.cpp    230] bf12 time cost: 21545
+09-19 18:18:51.653  3887  4137 I turen   : [R2][00:02:20.800] [core/R2VbvCtc.cpp    232] big code block time cost: 2323
+09-19 18:18:51.654  3887  4137 I turen   : [R2][00:02:20.800] [core/R2ad2VBF.cpp    205] R2ad2VBF big code block time cost: 4
+09-19 18:18:53.738  4580  4592 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:18:54.855  3887  4137 I turen   : [R2][00:02:24.000] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:18:55.061  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:18:55.066  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:18:55.484  3887  4233 I turen   : [R2][00:02:24.640] [R2AsrParser.cpp       66] ☘   (ID-0) ban liang , 
+09-19 18:18:55.764  3887  4233 I turen   : [R2][00:02:24.896] [R2AsrParser.cpp       66] ☘   (ID-0) ban liang shan , 
+09-19 18:18:55.904  3887  4233 I turen   : [R2][00:02:24.896] [R2AsrParser.cpp       66] ☘   (ID-0) ban liang shan , 
+09-19 18:18:55.905  3887  4137 I turen   : [R2][00:02:24.896] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:18:57.470  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:57.482  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:18:57.490  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:57.500  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:18:57.508  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:57.517  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:18:57.525  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:57.534  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:18:57.544  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=73- MASK=0x29d87
+09-19 18:18:57.553  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=73- MASK=0x29d87
+09-19 18:18:57.565  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:57.580  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=81- MASK=0x29d87
+09-19 18:18:57.588  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=88- MASK=0x29d87
+09-19 18:18:57.594  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:18:57.595  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=88- MASK=0x29d87
+09-19 18:18:58.774  4580  4593 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:00.076  3993  3993 D LaunchView: onReceive: android.intent.action.TIME_TICK
+09-19 18:19:00.163  3887  4137 I turen   : [R2][00:02:29.312] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:00.630  3887  4233 I turen   : [R2][00:02:29.760] [R2AsrParser.cpp       66] ☘   (ID-0) ruo qi , 
+09-19 18:19:02.005  3887  4233 I turen   : [R2][00:02:30.912] [R2AsrParser.cpp       66] ☘   (ID-0) ruo qi , 
+09-19 18:19:02.007  3887  4137 I turen   : [R2][00:02:30.912] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:02.130  3887  4137 I turen   : [R2][00:02:31.232] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:03.251  3887  4233 I turen   : [R2][00:02:32.384] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me , 
+09-19 18:19:03.355  3887  4233 I turen   : [R2][00:02:32.512] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai , 
+09-19 18:19:03.543  3887  4233 I turen   : [R2][00:02:32.704] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you , 
+09-19 18:19:03.618  3887  4233 I turen   : [R2][00:02:32.768] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e , 
+09-19 18:19:03.807  4580  5209 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:04.237  3887  4137 I turen   : [R2][00:02:33.344] [core/R2Line.cpp      264] rasr_manual_batch_step average time cost: 20173
+09-19 18:19:04.318  3887  4233 I turen   : [R2][00:02:33.472] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e , 
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    228] vbv total time cost: 31484
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    230] bf12 time cost: 19066
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    232] big code block time cost: 12390
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    235] *1* putvoiceToLines time cost: 176661
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    239] *2* putvoiceToLines time cost: 14855
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2VbvCtc.cpp    243] *3* putvoiceToLines time cost: 30742
+09-19 18:19:04.437  3887  4137 I turen   : [R2][00:02:33.600] [core/R2ad2VBF.cpp    205] R2ad2VBF big code block time cost: 4
+09-19 18:19:05.063  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:19:05.067  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:05.537  3887  4233 I turen   : [R2][00:02:34.688] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san , 
+09-19 18:19:06.254  3887  4137 I turen   : [R2][00:02:35.392] [core/R2VbvCtc.cpp    499] inputFloats time cost: 410
+09-19 18:19:07.350  3887  4233 I turen   : [R2][00:02:36.480] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you , 
+09-19 18:19:07.455  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:07.460  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:07.463  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:19:07.466  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=7- MASK=0x29d87
+09-19 18:19:07.474  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:19:07.477  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:19:07.479  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:19:07.484  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=64- MASK=0x29d87
+09-19 18:19:07.489  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=74- MASK=0x29d87
+09-19 18:19:07.493  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=74- MASK=0x29d87
+09-19 18:19:07.497  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=87- MASK=0x29d87
+09-19 18:19:07.507  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=90- MASK=0x29d87
+09-19 18:19:07.508  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=87- MASK=0x29d87
+09-19 18:19:07.511  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=90- MASK=0x29d87
+09-19 18:19:07.515  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:07.704  3887  4233 I turen   : [R2][00:02:36.864] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you , 
+09-19 18:19:07.831  3887  4233 I turen   : [R2][00:02:36.992] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na , 
+09-19 18:19:08.023  3887  4233 I turen   : [R2][00:02:37.184] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken , 
+09-19 18:19:08.288  3887  4233 I turen   : [R2][00:02:37.440] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding , 
+09-19 18:19:08.430  3887  4233 I turen   : [R2][00:02:37.568] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei , 
+09-19 18:19:08.500  3887  4233 I turen   : [R2][00:02:37.632] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei ye , 
+09-19 18:19:08.681  3887  4233 I turen   : [R2][00:02:37.824] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei ye hai , 
+09-19 18:19:08.832  4580  4666 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:08.857  3887  4233 I turen   : [R2][00:02:37.952] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei ye hai you , 
+09-19 18:19:08.991  3887  4233 I turen   : [R2][00:02:38.144] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei ye hai you a , 
+09-19 18:19:09.160  3887  4233 I turen   : [R2][00:02:38.208] [R2AsrParser.cpp       66] ☘   (ID-0) zen me zen me hai you e san you na ken ding ei ye hai you a , 
+09-19 18:19:09.162  3887  4137 I turen   : [R2][00:02:38.208] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:09.421  5925  5955 I bt_btm_sec: btm_sec_disconnected clearing pending flag handle:12 reason:34
+09-19 18:19:09.422  5925  5955 E bt_btif : bta_gattc_mark_bg_conn unable to find the bg connection mask for: 04:4b:ed:36:c4:7a
+09-19 18:19:09.462  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:09.462  5925  5946 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:09.462  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:09.487  5925  5946 I BluetoothBondStateMachine: bondStateChangeCallback: Status: 9 Address: 04:4B:ED:36:C4:7A newState: 0
+09-19 18:19:09.488  5925  5947 D BluetoothAdapterProperties: Failed to remove device: 04:4B:ED:36:C4:7A
+09-19 18:19:09.490  5925  5947 I BluetoothBondStateMachine: Bond State Change Intent:04:4B:ED:36:C4:7A OldState: 11 NewState: 10
+09-19 18:19:09.527  5925  5947 D HidService: getHidService(): returning com.android.bluetooth.hid.HidService@7515af9
+09-19 18:19:09.530  5925  5947 D HidService: Saved priority 04:4B:ED:36:C4:7A = -1
+09-19 18:19:09.531  5925  5946 E BluetoothRemoteDevices: state12newState1
+09-19 18:19:09.536  5925  5925 D BluetoothMapService: onReceive
+09-19 18:19:09.536  5925  5925 D BluetoothMapService: onReceive: android.bluetooth.device.action.ACL_DISCONNECTED
+09-19 18:19:09.543  5925  5947 I BluetoothBondStateMachine: StableState(): Entering Off State
+09-19 18:19:09.827  3887  4137 I turen   : [R2][00:02:38.976] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:10.334  3887  4233 I turen   : [R2][00:02:39.488] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai , 
+09-19 18:19:10.590  3887  4233 I turen   : [R2][00:02:39.744] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian , 
+09-19 18:19:10.738  3887  4233 I turen   : [R2][00:02:39.872] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe , 
+09-19 18:19:10.799  3887  4233 I turen   : [R2][00:02:39.936] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe ye , 
+09-19 18:19:10.910  3887  4233 I turen   : [R2][00:02:40.064] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe ye bu , 
+09-19 18:19:11.044  3887  4233 I turen   : [R2][00:02:40.192] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe ye bu shi , 
+09-19 18:19:11.196  3887  4233 I turen   : [R2][00:02:40.192] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe ye bu shi shi , 
+09-19 18:19:11.200  3887  4233 I turen   : [R2][00:02:40.192] [R2AsrParser.cpp       66] ☘   (ID-0) ni zai pian zhe ye bu shi shi , 
+09-19 18:19:11.201  3887  4137 I turen   : [R2][00:02:40.192] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:11.715  2632  2855 D KeyLayoutMap: gc: scanCode=28, usageCode=0x00000000 
+09-19 18:19:11.716  2632  2855 E KeyLayoutMap: gc: index = 27
+09-19 18:19:11.716  2632  2855 D KeyLayoutMap: gc: scanCode index =27
+09-19 18:19:11.716  2632  2855 D KeyLayoutMap: mapKey: scanCode=28, usageCode=0x00000000 ~ Result keyCode=23, outFlags=0x00000000.
+09-19 18:19:11.716  2632  2855 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:11.716  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:11.717  2632  2854 D WindowManager: interceptKeyTi keyCode=23 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:11.717  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:11.995  2632  2855 D KeyLayoutMap: gc: scanCode=28, usageCode=0x00000000 
+09-19 18:19:11.995  2632  2855 E KeyLayoutMap: gc: index = 27
+09-19 18:19:11.995  2632  2855 D KeyLayoutMap: gc: scanCode index =27
+09-19 18:19:11.995  2632  2855 D KeyLayoutMap: mapKey: scanCode=28, usageCode=0x00000000 ~ Result keyCode=23, outFlags=0x00000000.
+09-19 18:19:11.996  2632  2855 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:11.996  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:11.996  2632  2854 D WindowManager: interceptKeyTi keyCode=23 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:11.996  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:12.014  3698  3744 D OpenGLRenderer: endAllActiveAnimators on 0x8ffcd500 (RippleDrawable) with handle 0x8e58dfe0
+--------- beginning of system
+09-19 18:19:12.022  2632  2668 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2041743 attribute=null, token = android.os.BinderProxy@117bc28
+09-19 18:19:12.052  2632  2678 I WindowManager: Destroying surface Surface(name=com.android.settings/com.android.settings.Settings$BluetoothSettingsActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2014 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:881 com.android.server.wm.WindowState.destroyOrSaveSurface:2073 com.android.server.wm.AppWindowToken.destroySurfaces:363 com.android.server.wm.WindowStateAnimator.finishExit:565 com.android.server.wm.WindowStateAnimator.stepAnimationLocked:491 com.android.server.wm.WindowAnimator.updateWindowsLocked:303 com.android.server.wm.WindowAnimator.animateLocked:704 
+09-19 18:19:12.820  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:12.820  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:12.820  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:12.820  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:12.821  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:12.821  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:12.821  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:12.821  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:12.822  3434  3434 D RemoteIME: keycode: 20, realAction: false
+09-19 18:19:12.992  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:12.992  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:12.992  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:12.992  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:12.992  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:12.992  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:12.992  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:12.993  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:12.993  3434  3434 D RemoteIME: keycode: 20, realAction: true
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier: KeyEvent: ACTION_UP but key was not down.
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   in android.widget.FrameLayout{34dedbe V.E...... ........ 0,96-1920,984 #7f110224 app:id/main_content}
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   0: sent at 266507000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=266507, downTime=266335, deviceId=4, source=0x701 }
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   -- recent events --
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   1: sent at 229721000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_CENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=229721, downTime=229549, deviceId=4, source=0x701 }
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   2: sent at 229549000000, KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_CENTER, scanCode=28, metaState=0, flags=0x8, repeatCount=0, eventTime=229549, downTime=229549, deviceId=4, source=0x701 }
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   3: sent at 229294000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=229294, downTime=229122, deviceId=4, source=0x701 }
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   4: sent at 229122000000, (unhandled) KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=229122, downTime=229122, deviceId=4, source=0x701 }
+09-19 18:19:12.994  3698  3698 D InputEventConsistencyVerifier:   5: sent at 228865000000, (unhandled) KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=228865, downTime=228693, deviceId=4, source=0x701 }
+09-19 18:19:13.331  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:13.331  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:13.331  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:13.331  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:13.331  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:13.331  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:13.332  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:13.332  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:13.332  3434  3434 D RemoteIME: keycode: 20, realAction: false
+09-19 18:19:13.503  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:13.503  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:13.503  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:13.503  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:13.503  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:13.503  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:13.503  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:13.503  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:13.504  3434  3434 D RemoteIME: keycode: 20, realAction: true
+09-19 18:19:13.504  3698  3698 D InputEventConsistencyVerifier: KeyEvent: ACTION_UP but key was not down.
+09-19 18:19:13.504  3698  3698 D InputEventConsistencyVerifier:   in android.widget.LinearLayout{4c008b2 VFE...C.. .F...... 0,121-1584,202 #0}
+09-19 18:19:13.504  3698  3698 D InputEventConsistencyVerifier:   0: sent at 267018000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=267018, downTime=266846, deviceId=4, source=0x701 }
+09-19 18:19:13.767  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:13.767  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:13.767  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:13.767  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:13.767  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:13.767  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:13.767  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:13.767  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:13.767  3434  3434 D RemoteIME: keycode: 20, realAction: false
+09-19 18:19:13.938  2632  2855 D KeyLayoutMap: gc: scanCode=108, usageCode=0x00000000 
+09-19 18:19:13.938  2632  2855 E KeyLayoutMap: gc: index = 103
+09-19 18:19:13.938  2632  2855 D KeyLayoutMap: gc: scanCode index =103
+09-19 18:19:13.939  2632  2855 D KeyLayoutMap: mapKey: scanCode=108, usageCode=0x00000000 ~ Result keyCode=20, outFlags=0x00000000.
+09-19 18:19:13.939  2632  2855 D WindowManager: interceptKeyTq keycode=20 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:13.939  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:13.939  2632  2854 D WindowManager: interceptKeyTi keyCode=20 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:13.939  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:13.942  3434  3434 D RemoteIME: keycode: 20, realAction: true
+09-19 18:19:13.943  3698  3698 D InputEventConsistencyVerifier: KeyEvent: ACTION_UP but key was not down.
+09-19 18:19:13.943  3698  3698 D InputEventConsistencyVerifier:   in android.widget.LinearLayout{7ebb80 VFE...C.. .F...... 0,204-1584,285 #0}
+09-19 18:19:13.943  3698  3698 D InputEventConsistencyVerifier:   0: sent at 267453000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=108, metaState=0, flags=0x8, repeatCount=0, eventTime=267453, downTime=267281, deviceId=4, source=0x701 }
+09-19 18:19:14.175  2632  2855 D KeyLayoutMap: gc: scanCode=28, usageCode=0x00000000 
+09-19 18:19:14.175  2632  2855 E KeyLayoutMap: gc: index = 27
+09-19 18:19:14.175  2632  2855 D KeyLayoutMap: gc: scanCode index =27
+09-19 18:19:14.175  2632  2855 D KeyLayoutMap: mapKey: scanCode=28, usageCode=0x00000000 ~ Result keyCode=23, outFlags=0x00000000.
+09-19 18:19:14.176  2632  2855 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:14.176  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:14.176  2632  2854 D WindowManager: interceptKeyTi keyCode=23 down=true repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:14.176  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:14.176  3434  3434 D RemoteIME: keycode: 23, realAction: false
+09-19 18:19:14.347  2632  2855 D KeyLayoutMap: gc: scanCode=28, usageCode=0x00000000 
+09-19 18:19:14.347  2632  2855 E KeyLayoutMap: gc: index = 27
+09-19 18:19:14.347  2632  2855 D KeyLayoutMap: gc: scanCode index =27
+09-19 18:19:14.347  2632  2855 D KeyLayoutMap: mapKey: scanCode=28, usageCode=0x00000000 ~ Result keyCode=23, outFlags=0x00000000.
+09-19 18:19:14.347  2632  2855 D WindowManager: interceptKeyTq keycode=23 interactive=true keyguardActive=false policyFlags=22000000
+09-19 18:19:14.347  2632  2855 D WindowManager: interceptKeyTq result=1
+09-19 18:19:14.347  2632  2854 D WindowManager: interceptKeyTi keyCode=23 down=false repeatCount=0 keyguardOn=false mHomePressed=false canceled=false
+09-19 18:19:14.347  2632  2854 D WindowManager: interceptKeyTp result=0
+09-19 18:19:14.348  3434  3434 D RemoteIME: keycode: 23, realAction: true
+09-19 18:19:14.353  3698  3698 I BluetoothDevice: createBond() for device 04:4B:ED:36:C4:7A called by pid: 3698 tid: 3698
+09-19 18:19:14.355  5925  5955 E bt_btif : bte_scan_filt_param_cfg_evt, 1
+09-19 18:19:14.355  5925  5947 I BluetoothBondStateMachine: Bond address is:04:4B:ED:36:C4:7A
+09-19 18:19:14.356  5925  5947 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:14.356  5925  5947 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:14.356  5925  5947 I BluetoothBondStateMachine: Entering PendingCommandState State
+09-19 18:19:14.357  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:14.357  5925  5946 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:14.357  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:14.361  3698  3698 V BluetoothDiscoveryReceiver: Received: android.bluetooth.adapter.action.DISCOVERY_FINISHED
+09-19 18:19:14.368  5925  5946 I BluetoothBondStateMachine: bondStateChangeCallback: Status: 0 Address: 04:4B:ED:36:C4:7A newState: 1
+09-19 18:19:14.373  5925  5947 I BluetoothBondStateMachine: Bond State Change Intent:04:4B:ED:36:C4:7A OldState: 10 NewState: 11
+09-19 18:19:14.438  4580  4592 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:14.512  3698  6331 D Index   : Indexing locale 'zh_CN' took 153 millis
+09-19 18:19:15.065  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:19:15.069  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:15.383  5925  5955 W bt_btif : bta_dm_acl_change info: 0x10
+09-19 18:19:15.384  5925  5946 D bt_btif_dm: remote version info [04:4b:ed:36:c4:7a]: 0, 0, 0
+09-19 18:19:15.393  5925  5946 E BluetoothRemoteDevices: state12newState0
+09-19 18:19:16.868  3887  4137 I turen   : [R2][00:02:46.016] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:16.994  5925  5946 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:17.022  5925  5946 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:17.023  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    228] vbv total time cost: 24888
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    230] bf12 time cost: 14006
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    232] big code block time cost: 10858
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    235] *1* putvoiceToLines time cost: 180872
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    239] *2* putvoiceToLines time cost: 11769
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2VbvCtc.cpp    243] *3* putvoiceToLines time cost: 2417
+09-19 18:19:17.430  3887  4137 I turen   : [R2][00:02:46.400] [core/R2ad2VBF.cpp    205] R2ad2VBF big code block time cost: 12
+09-19 18:19:17.460  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:17.467  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:17.475  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:17.487  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:17.498  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=47- MASK=0x29d87
+09-19 18:19:17.509  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=47- MASK=0x29d87
+09-19 18:19:17.516  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=67- MASK=0x29d87
+09-19 18:19:17.524  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=67- MASK=0x29d87
+09-19 18:19:17.531  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=90- MASK=0x29d87
+09-19 18:19:17.537  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=90- MASK=0x29d87
+09-19 18:19:17.541  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=93- MASK=0x29d87
+09-19 18:19:17.543  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=93- MASK=0x29d87
+09-19 18:19:17.551  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:18.460  5925  5955 I bt_bta_dm: bta_dm_find_services services_to_search=3fffffff
+09-19 18:19:18.460  5925  5955 I bt_bta_dm: bta_dm_find_services search UUID = 1200
+09-19 18:19:18.470  5925  5955 E bt_btif : bte_scan_filt_param_cfg_evt, 1
+09-19 18:19:18.513  3698  3698 V BluetoothDiscoveryReceiver: Received: android.bluetooth.adapter.action.DISCOVERY_FINISHED
+09-19 18:19:18.882  5925  5955 W bt_sdp  : process_service_search_attr_rsp
+09-19 18:19:18.950  5925  5955 I bt_bta_dm: bta_dm_find_services services_to_search=3ffffffe
+09-19 18:19:18.950  5925  5955 I bt_bta_dm: bta_dm_find_services search UUID = 0100
+09-19 18:19:18.984  3887  4233 I turen   : [R2][00:02:48.128] [R2AsrParser.cpp       66] ☘   (ID-0) en fang , 
+09-19 18:19:19.058  3887  4233 I turen   : [R2][00:02:48.192] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo , 
+09-19 18:19:19.379  3887  4233 I turen   : [R2][00:02:48.512] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang , 
+09-19 18:19:19.457  4580  4593 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:19.626  3887  4233 I turen   : [R2][00:02:48.768] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei , 
+09-19 18:19:19.755  3887  4233 I turen   : [R2][00:02:48.896] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei , 
+09-19 18:19:19.949  3887  4233 I turen   : [R2][00:02:49.088] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei bian , 
+09-19 18:19:20.031  5925  5955 W bt_sdp  : process_service_search_attr_rsp
+09-19 18:19:20.150  3887  4233 I turen   : [R2][00:02:49.280] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei bian ge , 
+09-19 18:19:20.165  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:0 uuid:0000110a-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:1 uuid:00001116-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:2 uuid:0000110e-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:3 uuid:0000112f-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:4 uuid:0000111f-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:5 uuid:00001132-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:6 uuid:00000000-0000-1000-8000-00805f9b34fb
+09-19 18:19:20.166  5925  5946 I bt_btif_dm: btif_dm_search_services_evt index:7 uuid:fecacade-afde-cade-defa-cade00000000
+09-19 18:19:20.167  5925  5946 D bt_btif_config: btif_get_device_type: Device [04:4b:ed:36:c4:7a] type 1
+09-19 18:19:20.169  5925  5946 I bt_btif_dm: get_cod remote_cod = 0x007a020c
+09-19 18:19:20.209  5925  5946 I BluetoothBondStateMachine: bondStateChangeCallback: Status: 0 Address: 04:4B:ED:36:C4:7A newState: 2
+09-19 18:19:20.209  5925  5947 D BluetoothAdapterProperties: Adding bonded device:04:4B:ED:36:C4:7A
+09-19 18:19:20.215  5925  5947 I BluetoothBondStateMachine: Bond State Change Intent:04:4B:ED:36:C4:7A OldState: 11 NewState: 12
+09-19 18:19:20.215  5925  5947 I BluetoothBondStateMachine: StableState(): Entering Off State
+09-19 18:19:20.266  3887  4233 I turen   : [R2][00:02:49.408] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei bian ge xiang , 
+09-19 18:19:20.269  5925  5925 D HidService: getHidService(): returning com.android.bluetooth.hid.HidService@7515af9
+09-19 18:19:20.269  5925  5925 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:20.275  5925  5925 D A2dpSinkService: Saved priority 04:4B:ED:36:C4:7A = 100
+09-19 18:19:20.309  3473  3743 D LocalBluetoothProfileManager: Current Profiles[]
+09-19 18:19:20.309  3473  3743 D BluetoothMap: getConnectedDevices()
+09-19 18:19:20.315  3473  3743 D BluetoothMap: getConnectionState(04:4B:ED:36:C4:7A)
+09-19 18:19:20.328  3473  3743 D MapProfile: getConnectionStatus: status is: 0
+09-19 18:19:20.332  3473  3743 D LocalBluetoothProfileManager: New Profiles[A2DPSink, PAN]
+09-19 18:19:20.452  3698  3698 D CachedBluetoothDevice: No profiles. Maybe we will connect later
+09-19 18:19:20.463  3698  3698 D LocalBluetoothProfileManager: Current Profiles[]
+09-19 18:19:20.463  3698  3698 D BluetoothMap: getConnectedDevices()
+09-19 18:19:20.466  3698  3698 D BluetoothMap: getConnectionState(04:4B:ED:36:C4:7A)
+09-19 18:19:20.469  3698  3698 D MapProfile: getConnectionStatus: status is: 0
+09-19 18:19:20.469  3698  3698 D LocalBluetoothProfileManager: New Profiles[A2DPSink, PAN]
+09-19 18:19:20.483  3698  3698 D BluetoothA2dpSink: connect(04:4B:ED:36:C4:7A)
+09-19 18:19:20.486  5925  5966 D A2dpSinkStateMachine: Disconnected process message: 1
+09-19 18:19:20.486  3698  3698 D CachedBluetoothDevice: Command sent successfully:CONNECT Address:04:4B:ED:36:C4:7A Profile:A2DPSink
+09-19 18:19:20.486  5925  5966 I BluetoothA2dpSinkServiceJni: connectA2dpNative: sBluetoothA2dpInterface: 0x930741bc
+09-19 18:19:20.487  5925  5955 E bt_btif : reset flags
+09-19 18:19:20.487  5925  5966 D A2dpSinkStateMachine: Exit Disconnected: 1
+09-19 18:19:20.487  5925  5966 D A2dpSinkStateMachine: Enter Pending: 1
+09-19 18:19:20.489  5925  5925 D A2dpSinkStateMachine: Connection state 04:4B:ED:36:C4:7A: 0->1
+09-19 18:19:20.489  5925  5925 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@bb06018
+09-19 18:19:20.489  3473  3743 D CachedBluetoothDevice: onProfileStateChanged: profile A2DPSink newProfileState 1
+09-19 18:19:20.494  5925  5925 D BluetoothAdapterProperties: CONNECTION_STATE_CHANGE: 04:4B:ED:36:C4:7A: 0 -> 1
+09-19 18:19:20.495  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 DRIVER BTCOEXSCAN-START
+09-19 18:19:20.518  3887  4233 I turen   : [R2][00:02:49.408] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei bian ge xiang zi , 
+09-19 18:19:20.521  3887  4233 I turen   : [R2][00:02:49.408] [R2AsrParser.cpp       66] ☘   (ID-0) en fang wo bang mei bian ge xiang zi , 
+09-19 18:19:20.523  3887  4137 I turen   : [R2][00:02:49.408] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:20.652  3698  3698 D CachedBluetoothDevice: onProfileStateChanged: profile A2DPSink newProfileState 1
+09-19 18:19:20.842  5925  5955 W bt_sdp  : process_service_search_attr_rsp
+09-19 18:19:21.667  3887  4137 I turen   : [R2][00:02:50.816] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:21.819  5925  5955 E bt_btm  : tBTM_SEC_DEV:0x91c97608 rs_disc_pending=0
+09-19 18:19:21.819  5925  5955 W bt_btif : bta_dm_check_av:0
+09-19 18:19:21.819  5925  5946 W bt_btif : btif_dm_cback : unhandled event (14)
+09-19 18:19:22.095  5925  5955 E bt_btif : bta_av_rc_create ACP handle exist for shdl:0
+09-19 18:19:22.294  3887  4233 I turen   : [R2][00:02:51.392] [R2AsrParser.cpp       66] ☘   (ID-0) mang mei , 
+09-19 18:19:22.373  5925  5946 W bt_btif : BTIF_AV_SINK_CONFIG_REQ_EVT 44100 2
+09-19 18:19:22.373  5925  5946 I BluetoothA2dpSinkServiceJni: bta2dp_audio_config_callback
+09-19 18:19:22.373  1716  2079 V AudioFlinger: registerClient() client 0xac794cc0, pid 5925
+09-19 18:19:22.373  1716  2079 V AudioFlinger: sendConfigEvent_l() num events 1 event 0
+09-19 18:19:22.374  1716  2079 V AudioFlinger: sendConfigEvent_l() num events 1 event 0
+09-19 18:19:22.374  1716  2049 V AudioFlinger: thread 0xac318680 type 0 TID 2049 waking up
+09-19 18:19:22.374  1716  2049 V AudioFlinger: acquireWakeLock_l() AudioOut_D status 0
+09-19 18:19:22.374  1716  2049 V AudioFlinger: processConfigEvents_l() remaining events 1
+09-19 18:19:22.374  1716  2049 V AudioFlinger: PlaybackThread::ioConfigChanged, thread 0xac318680, event 0
+09-19 18:19:22.374  1716  2049 D audio_hal: out_get_latency: out(0xac7b2000) latency=20
+09-19 18:19:22.374  1716  2049 V AudioFlinger: processConfigEvents_l() DONE thread 0xac318680
+09-19 18:19:22.374  1716  2049 V AudioFlinger: updateWakeLockUids_l() AudioOut_D status 0
+09-19 18:19:22.375  1716  1716 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:22.375  5925  5964 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client; transfer 3, track 44100 Hz, output 48000 Hz
+09-19 18:19:22.375  1716  2079 V AudioFlinger: createTrack() lSessionId: 41
+09-19 18:19:22.375  1716  2079 D audio_hal: out_get_latency: out(0xac7b2000) latency=20
+09-19 18:19:22.376  5925  5964 D AudioTrack: Client defaulted notificationFrames to 886 for frameCount 2658
+09-19 18:19:22.376  5925  5966 D A2dpSinkStateMachine: Pending process message: 101
+09-19 18:19:22.376  5925  5966 D A2dpSinkStateMachine: STACK_EVENT 3
+09-19 18:19:22.376  5925  5966 D A2dpSinkStateMachine: processAudioConfigEvent: 04:4B:ED:36:C4:7A
+09-19 18:19:22.376  1716  1716 V AudioFlinger: acquiring 41 from 5925, for 5925
+09-19 18:19:22.376  1716  1716 V AudioFlinger:  added new entry for 41
+09-19 18:19:22.377  5925  5966 D A2dpSinkStateMachine: A2DP Audio Config : device: 04:4B:ED:36:C4:7A config: {mSampleRate:44100,mChannelConfig:12,mAudioFormat:2}
+09-19 18:19:22.378  1716  4262 V AudioFlinger: processConfigEvents_l() remaining events 1
+09-19 18:19:22.378  1716  4262 V AudioFlinger: processConfigEvents_l() DONE thread 0xabd03f00
+09-19 18:19:22.494  3887  4233 I turen   : [R2][00:02:51.648] [R2AsrParser.cpp       66] ☘   (ID-0) mang mei shang , 
+09-19 18:19:22.558  3887  4233 I turen   : [R2][00:02:51.712] [R2AsrParser.cpp       66] ☘   (ID-0) mang mei shang le , 
+09-19 18:19:22.666  3887  4233 I turen   : [R2][00:02:51.712] [R2AsrParser.cpp       66] ☘   (ID-0) mang mei shang le , 
+09-19 18:19:22.668  3887  4137 I turen   : [R2][00:02:51.712] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:22.855  5925  5955 W bt_btif : bta_dm_rm_cback:0, status:0
+09-19 18:19:22.855  5925  5955 W bt_btif : new conn_srvc id:18, app_id:0
+09-19 18:19:22.855  5925  5955 W bt_btif : bta_dm_pm_ssr conn_srvc id:18, app_id:0
+09-19 18:19:22.855  5925  5955 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+09-19 18:19:22.855  5925  5946 I BluetoothA2dpSinkServiceJni: bta2dp_connection_state_callback
+09-19 18:19:22.857  5925  5966 D A2dpSinkStateMachine: Pending process message: 101
+09-19 18:19:22.857  5925  5966 D A2dpSinkStateMachine: STACK_EVENT 1
+09-19 18:19:22.857  5925  5966 D A2dpSinkStateMachine: processConnectionEvent state 2
+09-19 18:19:22.857  5925  5966 E A2dpSinkStateMachine: target device is not null
+09-19 18:19:22.857  5925  5966 D A2dpSinkStateMachine: Enter Connected: 101
+09-19 18:19:22.860  5925  5966 D A2dpSinkStateMachine: A2DP Playing state : device: 04:4B:ED:36:C4:7A State:10->11
+09-19 18:19:22.862  3698  3698 D CachedBluetoothDevice: onProfileStateChanged: profile A2DPSink newProfileState 2
+09-19 18:19:22.862  3473  3743 D CachedBluetoothDevice: onProfileStateChanged: profile A2DPSink newProfileState 2
+09-19 18:19:22.863  5925  5925 D A2dpSinkStateMachine: Connection state 04:4B:ED:36:C4:7A: 1->2
+09-19 18:19:22.863  5925  5925 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@bb06018
+09-19 18:19:22.864  5925  5925 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:22.869  5925  5966 D A2dpSinkStreamingStateMachine: make
+09-19 18:19:22.871  5925  5925 D A2dpSinkService: Saved priority 04:4B:ED:36:C4:7A = 1000
+09-19 18:19:22.874  5925  5925 D BluetoothAdapterProperties: CONNECTION_STATE_CHANGE: 04:4B:ED:36:C4:7A: 1 -> 2
+09-19 18:19:22.875  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 DRIVER BTCOEXSCAN-START
+09-19 18:19:22.890  5925  6396 D A2dpSinkStreamingStateMachine.SRC_F_ACT_F: Enter: -2
+09-19 18:19:23.267  5925  5955 W bt_sdp  : process_service_search_attr_rsp
+09-19 18:19:23.270  3887  4137 I turen   : [R2][00:02:52.416] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:23.407  5925  5955 E bt_btif : bta_av_rc_create found duplicated handle:0
+09-19 18:19:23.612  5925  5955 Iinput: AVRCP as /devices/virtual/input/input4
+ bt_bta_av: bta_av_rc_opened allow incoming AVRCP connections:1
+09-19 18:19:23.612  5925  5955 E bt_btif : bta_av_rc_opened rcb[0] shdl:1 lidx:1/0
+09-19 18:19:23.612  5925  5946 I BluetoothAvrcpServiceJni: btavrcp_remote_features_callback
+09-19 18:19:23.614  1703  2156 I         : [himedia.CameraController]: uevent : add@/devices/virtual/input/input4.
+09-19 18:19:23.615  1703  2156 I         : [himedia.CameraController]: uevent type = 0.
+09-19 18:19:23.615  1696  1832 I AOService: hdmi_observer  add@/devices/virtual/input/input4
+09-19 18:19:23.620  1703  2156 I         : [himedia.CameraController]: uevent : add@/devices/virtual/input/input4/event4.
+09-19 18:19:23.620  1703  2156 I         : [himedia.CameraController]: uevent type = 0.
+09-19 18:19:23.620  1696  1832 I AOService: hdmi_observer  add@/devices/virtual/input/input4/event4
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.621  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_connection_state_callback
+09-19 18:19:23.621  5925  5946 I BluetoothAvrcpControllerJni: conn state: 1
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 0
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 1
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 2
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: get curStream 3, curDevice 1024
+09-19 18:19:23.621  2632  2855 D EventHub: EVENTHUB  The device->configurationFile = '/system/usr/idc/AVRCP.idc'.
+09-19 18:19:23.621  1716  6390 E APM_AudioPolicyManager: curStrategy 0
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: curStreamDevice 1024
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: 6 outpt device 80, curStreamDevice 400
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 4
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 5
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 6
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 7
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 8
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 9
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: get curStream 10, curDevice 1024
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: 5 outpt stream1 3, curStream 10
+09-19 18:19:23.622  1716  6390 E APM_AudioPolicyManager: is outpt stream1 3, curStream 11
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:1: '# Copyright (C) 2010 The Android Open Source Project'.
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:2: '#'.
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:3: '# Licensed under the Apache License, Version 2.0 (the "License");'.
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:4: '# you may not use this file except in compliance with the License.'.
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:5: '# You may obtain a copy of the License at'.
+09-19 18:19:23.623  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:6: '#'.
+09-19 18:19:23.623  5925  5946 D AvrcpControllerService: onConnectionStateChanged true 04:4B:ED:36:C4:7A size 0
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:7: '#      http://www.apache.org/licenses/LICENSE-2.0'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:8: '#'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:9: '# Unless required by applicable law or agreed to in writing, software'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:10: '# distributed under the License is distributed on an "AS IS" BASIS,'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:11: '# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:12: '# See the License for the specific language governing permissions and'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:13: '# limitations under the License.'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:14: ''.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:15: '# Key layout used for Bluetooth AVRCP support.'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:16: ''.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:17: 'key 200   MEDIA_PLAY'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsed key scan code: code=200, keyCode=126, flags=0x00000000.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:18: 'key 201   MEDIA_PAUSE'.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsed key scan code: code=201, keyCode=127, flags=0x00000000.
+09-19 18:19:23.624  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:19: 'key 166   MEDIA_STOP'.
+09-19 18:19:23.625  5925  5970 D AvrcpControllerService:  HandleMessage: CB_CONN_CHANGED Remote Connected true
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key scan code: code=166, keyCode=86, flags=0x00000000.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:20: 'key 163   MEDIA_NEXT'.
+09-19 18:19:23.625  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key scan code: code=163, keyCode=87, flags=0x00000000.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:21: 'key 165   MEDIA_PREVIOUS'.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key scan code: code=165, keyCode=88, flags=0x00000000.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:22: 'key 168   MEDIA_REWIND'.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key scan code: code=168, keyCode=89, flags=0x00000000.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsing /system/usr/keylayout/AVRCP.kl:23: 'key 208   MEDIA_FAST_FORWARD'.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key scan code: code=208, keyCode=90, flags=0x00000000.
+09-19 18:19:23.625  2632  2855 D KeyLayoutMap: Parsed key layout map file '/system/usr/keylayout/AVRCP.kl' 24 lines in 2.615ms.
+09-19 18:19:23.626  1716  2079 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.626  1716  2079 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.626  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 0
+09-19 18:19:23.626  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 1
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 2
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 3
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 4
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 5
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 6
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 7
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 8
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: get curStream 9, curDevice 1024
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: 5 outpt stream1 9, curStream 9
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 10
+09-19 18:19:23.627  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 11
+09-19 18:19:23.628  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_get_rcfeatures_callback
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 0
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 1
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 2
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 3
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 4
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 5
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 6
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 7
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 8
+09-19 18:19:23.628  1716  2079 E APM_AudioPolicyManager: get curStream 9, curDevice 1024
+09-19 18:19:23.629  1716  2079 E APM_AudioPolicyManager: 5 outpt stream1 9, curStream 9
+09-19 18:19:23.629  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 10
+09-19 18:19:23.629  1716  2079 E APM_AudioPolicyManager: is outpt stream1 9, curStream 11
+09-19 18:19:23.632  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.CONNECTION_STATE_CHANGED flg=0x10 (has extras) }
+09-19 18:19:23.632  5925  5925 D A2dpMediaBrowserService: handleConnectionStateChange: newState=2 btDev=04:4B:ED:36:C4:7A
+09-19 18:19:23.632  5925  5925 D A2dpMediaBrowserService: msgDeviceConnect
+09-19 18:19:23.634  2632  2855 W EventHub: Unable to disable kernel key repeat for /dev/input/event4: Function not implemented
+09-19 18:19:23.634  5925  5970 D AvrcpControllerService:  HandleMessage: CB_RC_FEATURES Remote Connected true
+09-19 18:19:23.634  2632  2855 I EventHub: New device: id=5, fd=200, path='/dev/input/event4', name='AVRCP', classes=0x1, configuration='/system/usr/idc/AVRCP.idc', keyLayout='/system/usr/keylayout/AVRCP.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+09-19 18:19:23.635  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.635  2632  2855 D KeyLayoutMap: findScanCodeForLed: ledCode=1 ~ Not found.
+09-19 18:19:23.635  2632  2855 D KeyLayoutMap: findScanCodeForLed: ledCode=0 ~ Not found.
+09-19 18:19:23.635  2632  2855 D KeyLayoutMap: findScanCodeForLed: ledCode=2 ~ Not found.
+09-19 18:19:23.635  2632  2855 I InputReader: Device added: id=5, name='AVRCP', sources=0x00000101
+09-19 18:19:23.637  5925  5925 V AvrcpControllerService: Binder Call: getPlaybackState
+09-19 18:19:23.638  1716  6390 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.638  1716  6390 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.638  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 0
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 1
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 2
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 3
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 4
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 5
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 6
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 7
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: get curStream 8, curDevice 1024
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: 5 outpt stream1 8, curStream 8
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 9
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 10
+09-19 18:19:23.639  1716  6390 E APM_AudioPolicyManager: is outpt stream1 8, curStream 11
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 0
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 1
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 2
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 3
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 4
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 5
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 6
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 7
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: get curStream 8, curDevice 1024
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: 5 outpt stream1 8, curStream 8
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 9
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 10
+09-19 18:19:23.640  1716  5204 E APM_AudioPolicyManager: is outpt stream1 8, curStream 11
+09-19 18:19:23.640  5925  5925 D AvrcpControllerService: getPlayBackState device = 04:4B:ED:36:C4:7A
+09-19 18:19:23.642  1716  1716 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.642  1716  1716 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 0
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 1
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 2
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 3
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 4
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 5
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 6
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: get curStream 7, curDevice 1024
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: 5 outpt stream1 7, curStream 7
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 8
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 9
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 10
+09-19 18:19:23.643  1716  1716 E APM_AudioPolicyManager: is outpt stream1 7, curStream 11
+09-19 18:19:23.643  1716  6391 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.643  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.643  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 0
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 1
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 2
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 3
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 4
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 5
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 6
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: get curStream 7, curDevice 1024
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: 5 outpt stream1 7, curStream 7
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 8
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 9
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 10
+09-19 18:19:23.644  1716  6391 E APM_AudioPolicyManager: is outpt stream1 7, curStream 11
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 0
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 1
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 2
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 3
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 4
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 5
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: get curStream 6, curDevice 1024
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: 5 outpt stream1 6, curStream 6
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 7
+09-19 18:19:23.645  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 8
+09-19 18:19:23.646  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 9
+09-19 18:19:23.646  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 10
+09-19 18:19:23.646  1716  5204 E APM_AudioPolicyManager: is outpt stream1 6, curStream 11
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.646  5925  5925 V AvrcpControllerService: Binder Call: getMetaData 
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 0
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 1
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 2
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 3
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 4
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 5
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: get curStream 6, curDevice 1024
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: 5 outpt stream1 6, curStream 6
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 7
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 8
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 9
+09-19 18:19:23.646  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 10
+09-19 18:19:23.647  1716  2079 E APM_AudioPolicyManager: is outpt stream1 6, curStream 11
+09-19 18:19:23.647  5925  5925 D AvrcpControllerService: getMetaData = 
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 0
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 1
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 2
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 3
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 4
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: get curStream 5, curDevice 1024
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: 5 outpt stream1 5, curStream 5
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 6
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 7
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 8
+09-19 18:19:23.648  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 9
+09-19 18:19:23.649  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 10
+09-19 18:19:23.649  1716  6391 E APM_AudioPolicyManager: is outpt stream1 5, curStream 11
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 0
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 1
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 2
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 3
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 4
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: get curStream 5, curDevice 1024
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: 5 outpt stream1 5, curStream 5
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 6
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 7
+09-19 18:19:23.649  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 8
+09-19 18:19:23.650  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 9
+09-19 18:19:23.650  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 10
+09-19 18:19:23.650  1716  6390 E APM_AudioPolicyManager: is outpt stream1 5, curStream 11
+09-19 18:19:23.650  5925  5925 D AvrcpUtils:  TrackInfo Metadata [artist=NOT_SUPPORTED trackTitle= NOT_SUPPORTED albumTitle= NOT_SUPPORTED genre= NOT_SUPPORTED trackNum= 255 track_len : 255 TotalTracks 255]
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 0
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 1
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 2
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 3
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: get curStream 4, curDevice 1024
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: 5 outpt stream1 4, curStream 4
+09-19 18:19:23.651  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 5
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 6
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 7
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 8
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 9
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 10
+09-19 18:19:23.652  1716  2079 E APM_AudioPolicyManager: is outpt stream1 4, curStream 11
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 0
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 1
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 2
+09-19 18:19:23.652  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 3
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: get curStream 4, curDevice 1024
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: 5 outpt stream1 4, curStream 4
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 5
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 6
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 7
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 8
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 9
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 10
+09-19 18:19:23.653  1716  1716 E APM_AudioPolicyManager: is outpt stream1 4, curStream 11
+09-19 18:19:23.654  1716  6390 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.654  1716  6390 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.654  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 0
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 1
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: get curStream 2, curDevice 1024
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: 5 outpt stream1 2, curStream 2
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 3
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 4
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 5
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 6
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 7
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 8
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 9
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 10
+09-19 18:19:23.655  1716  6390 E APM_AudioPolicyManager: is outpt stream1 2, curStream 11
+09-19 18:19:23.655  5925  5925 D A2dpMediaBrowserService: Media metadata android.media.MediaMetadata@74a7684 playback state PlaybackState {state=1, position=0, buffered position=0, speed=0.0, updated=277160, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 0
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 1
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: get curStream 2, curDevice 1024
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: 5 outpt stream1 2, curStream 2
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 3
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 4
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 5
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 6
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 7
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 8
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 9
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 10
+09-19 18:19:23.656  1716  5204 E APM_AudioPolicyManager: is outpt stream1 2, curStream 11
+09-19 18:19:23.659  5925  5925 V AvrcpControllerService: Binder Call: getMetaData 
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 0
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: get curStream 1, curDevice 1024
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: 5 outpt stream1 1, curStream 1
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 2
+09-19 18:19:23.659  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 3
+09-19 18:19:23.659  5925  5925 D AvrcpControllerService: getMetaData = 
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 4
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 5
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 6
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 7
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 8
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 9
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 10
+09-19 18:19:23.660  1716  1716 E APM_AudioPolicyManager: is outpt stream1 1, curStream 11
+09-19 18:19:23.660  5925  5925 D AvrcpUtils:  TrackInfo Metadata [artist=NOT_SUPPORTED trackTitle= NOT_SUPPORTED albumTitle= NOT_SUPPORTED genre= NOT_SUPPORTED trackNum= 255 track_len : 255 TotalTracks 255]
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 0
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: get curStream 1, curDevice 1024
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: 5 outpt stream1 1, curStream 1
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 2
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 3
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 4
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 5
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 6
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 7
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 8
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 9
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 10
+09-19 18:19:23.662  1716  6391 E APM_AudioPolicyManager: is outpt stream1 1, curStream 11
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: get curStream 0, curDevice 1024
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: 5 outpt stream1 0, curStream 0
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 1
+09-19 18:19:23.665  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 2
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 3
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 4
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 5
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 6
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 7
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 8
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 9
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 10
+09-19 18:19:23.667  1716  5204 E APM_AudioPolicyManager: is outpt stream1 0, curStream 11
+09-19 18:19:23.669  1716  2079 E APM_AudioPolicyManager: mOutputs.size() 1
+09-19 18:19:23.669  1716  2079 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: get curStream 0, curDevice 1024
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: 5 outpt stream1 0, curStream 0
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 1
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 2
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 3
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 4
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 5
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 6
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 7
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 8
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 9
+09-19 18:19:23.670  1716  2079 E APM_AudioPolicyManager: is outpt stream1 0, curStream 10
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 3
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 4
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 5
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 6
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 7
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 8
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 9
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 10
+09-19 18:19:23.671  1716  1716 E APM_AudioPolicyManager: is outpt stream1 2, curStream 11
+09-19 18:19:23.671  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+09-19 18:19:23.671  5925  5946 D AvrcpControllerService: onPlayStatusChanged 2
+09-19 18:19:23.673  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_STATUS_CHANGED Remote Connected true
+09-19 18:19:23.673  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.673  5925  5970 D AvrcpControllerService: Metadata is not broadcasted, ignoring.
+09-19 18:19:23.673  5925  5966 D A2dpSinkStateMachine: Connected process message: 304
+09-19 18:19:23.673  5925  6396 D A2dpSinkStreamingStateMachine.SRC_F_ACT_F:  process message: 5
+09-19 18:19:23.673  5925  6396 E A2dpSinkStreamingStateMachine: Don't know how to handle 5
+09-19 18:19:23.713  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_playerapplicationsetting_callback
+09-19 18:19:23.713  5925  5946 I BluetoothAvrcpControllerJni:  arraylen 9
+09-19 18:19:23.713  5925  5946 D AvrcpControllerService: handlePlayerAppSetting rspLen = 9
+09-19 18:19:23.714  5925  5970 D AvrcpControllerService:  HandleMessage: CB_SUPPORTED_PLAYER_APP_SETTING Remote Connected true
+09-19 18:19:23.714  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.722  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_playerapplicationsetting_changed_callback
+09-19 18:19:23.722  5925  5946 D AvrcpControllerService: onPlayerAppSettingChanged 
+09-19 18:19:23.723  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAYER_APP_SETTING_CHANGED Remote Connected true
+09-19 18:19:23.723  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.724  5925  5970 D AvrcpUtils: attribId: 2 attribVal: 1
+09-19 18:19:23.724  5925  5970 D AvrcpUtils: attribId: 3 attribVal: 1
+09-19 18:19:23.724  5925  5970 D AvrcpUtils:  setting: 6
+09-19 18:19:23.725  5925  5970 D AvrcpControllerService:  broadcastPlayerAppSettingChanged =  REPEAT : 0 SHUFFLE : 0
+09-19 18:19:23.726  2632  2668 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.PLAYER_SETTING from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:23.726  2632  2668 E ActivityManager: java.lang.Throwable
+09-19 18:19:23.726  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:23.726  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:23.726  2632  2668 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:23.726  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:23.726  2632  2668 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:23.762  3698  6330 D Index   : Indexing locale 'zh_CN' took 122 millis
+09-19 18:19:23.927  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_track_changed_callback
+09-19 18:19:23.927  5925  5946 D AvrcpControllerService: onTrackChanged 
+09-19 18:19:23.928  5925  5970 D AvrcpControllerService:  HandleMessage: CB_TRACK_CHANGED Remote Connected true
+09-19 18:19:23.929  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:23.929  5925  5970 D AvrcpControllerService: Metadata is not broadcasted, ignoring.
+09-19 18:19:24.063  3887  4233 I turen   : [R2][00:02:53.056] [R2AsrParser.cpp       66] ☘   (ID-0) lian hao , 
+09-19 18:19:24.410  3887  4233 I turen   : [R2][00:02:53.312] [R2AsrParser.cpp       66] ☘   (ID-0) lian hao , 
+09-19 18:19:24.411  3887  4137 I turen   : [R2][00:02:53.312] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:24.501  4580  5209 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:24.868  3887  4137 I turen   : [R2][00:02:54.016] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:25.071  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:19:25.078  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:25.378  1716  2049 V AudioFlinger: releaseWakeLock_l() AudioOut_D
+09-19 18:19:25.378  1716  2049 V AudioFlinger: thread 0xac318680 type 0 TID 2049 going to sleep
+09-19 18:19:25.410  3887  4233 I turen   : [R2][00:02:54.528] [R2AsrParser.cpp       66] ☘   (ID-0) bian zai , 
+09-19 18:19:25.494  3887  4233 I turen   : [R2][00:02:54.656] [R2AsrParser.cpp       66] ☘   (ID-0) bian zai shang , 
+09-19 18:19:25.623  3887  4233 I turen   : [R2][00:02:54.784] [R2AsrParser.cpp       66] ☘   (ID-0) bian zai shang le , 
+09-19 18:19:25.906  3887  4233 I turen   : [R2][00:02:54.912] [R2AsrParser.cpp       66] ☘   (ID-0) bian zai shang le , 
+09-19 18:19:25.907  3887  4137 I turen   : [R2][00:02:54.912] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:26.338  3887  4137 I turen   : [R2][00:02:55.488] [core/R2VbvCtc.cpp    379] ☘   [jihuoci] start lines
+09-19 18:19:26.907  3887  4233 I turen   : [R2][00:02:56.064] [R2AsrParser.cpp       66] ☘   (ID-0) deng le , 
+09-19 18:19:27.472  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:27.489  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:27.501  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:27.510  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:27.518  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:19:27.526  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=52- MASK=0x29d87
+09-19 18:19:27.537  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=79- MASK=0x29d87
+09-19 18:19:27.546  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=79- MASK=0x29d87
+09-19 18:19:27.558  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=94- MASK=0x29d87
+09-19 18:19:27.559  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=94- MASK=0x29d87
+09-19 18:19:27.566  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:27.667  3887  4233 I turen   : [R2][00:02:56.832] [R2AsrParser.cpp       66] ☘   (ID-0) deng le ta , 
+09-19 18:19:27.804  3887  4233 I turen   : [R2][00:02:56.960] [R2AsrParser.cpp       66] ☘   (ID-0) deng le ta bu , 
+09-19 18:19:27.869  3887  4233 I turen   : [R2][00:02:57.024] [R2AsrParser.cpp       66] ☘   (ID-0) deng le ta bu yin , 
+09-19 18:19:28.044  3887  4233 I turen   : [R2][00:02:57.152] [R2AsrParser.cpp       66] ☘   (ID-0) deng le ta bu yin yue , 
+09-19 18:19:28.047  3887  4233 I turen   : [R2][00:02:57.152] [R2AsrParser.cpp       66] ☘   (ID-0) deng le ta bu yin yue , 
+09-19 18:19:28.048  3887  4137 I turen   : [R2][00:02:57.152] [core/R2VbvCtc.cpp    439] ☘   [jihuoci] stop lines
+09-19 18:19:29.303  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+09-19 18:19:29.303  5925  5946 D AvrcpControllerService: onPlayStatusChanged 0
+09-19 18:19:29.305  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_STATUS_CHANGED Remote Connected true
+09-19 18:19:29.305  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:29.305  5925  5970 D AvrcpControllerService: Metadata is not broadcasted, ignoring.
+09-19 18:19:29.305  5925  5966 D A2dpSinkStateMachine: Connected process message: 304
+09-19 18:19:29.305  5925  6396 D A2dpSinkStreamingStateMachine.SRC_F_ACT_F:  process message: 5
+09-19 18:19:29.306  5925  6396 E A2dpSinkStreamingStateMachine: Don't know how to handle 5
+09-19 18:19:29.436  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+09-19 18:19:29.436  5925  5946 D AvrcpControllerService: onPlayStatusChanged 0
+09-19 18:19:29.438  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_STATUS_CHANGED Remote Connected true
+09-19 18:19:29.438  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:29.438  5925  5970 D AvrcpControllerService: Metadata is not broadcasted, ignoring.
+09-19 18:19:29.438  5925  5966 D A2dpSinkStateMachine: Connected process message: 304
+09-19 18:19:29.439  5925  6396 D A2dpSinkStreamingStateMachine.SRC_F_ACT_F:  process message: 5
+09-19 18:19:29.439  5925  6396 E A2dpSinkStreamingStateMachine: Don't know how to handle 5
+09-19 18:19:29.521  4580  4666 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:30.049  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    228] vbv total time cost: 35462
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    230] bf12 time cost: 16444
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    232] big code block time cost: 18997
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    235] *1* putvoiceToLines time cost: 187874
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    239] *2* putvoiceToLines time cost: 17720
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2VbvCtc.cpp    243] *3* putvoiceToLines time cost: 21479
+09-19 18:19:30.050  3887  4137 I turen   : [R2][00:02:59.200] [core/R2ad2VBF.cpp    205] R2ad2VBF big code block time cost: 44
+09-19 18:19:31.531  5925  5955 E bt_btif : bta_av_proc_stream_evt: p_data is null
+09-19 18:19:31.531  5925  5955 I bt_bta_av: bta_av_link_role_ok hndl:x41 role:1 conn_audio:x1 bits:1 features:x824b
+09-19 18:19:31.531  5925  5955 W bt_btif : bta_dm_rm_cback:0, status:0
+09-19 18:19:31.532  5925  5955 W bt_btif : bta_dm_rm_cback:1, status:7
+09-19 18:19:31.532  5925  5955 W bt_btif : new conn_srvc id:18, app_id:1
+09-19 18:19:31.532  5925  5946 I BluetoothA2dpSinkServiceJni: bta2dp_audio_state_callback
+09-19 18:19:31.534  5925  5966 D A2dpSinkStateMachine: Connected process message: 101
+09-19 18:19:31.534  5925  5966 D A2dpSinkStateMachine:  processAudioStateEvent in state 2
+09-19 18:19:31.534  5925  6396 D A2dpSinkStreamingStateMachine.SRC_F_ACT_F:  process message: 0
+09-19 18:19:31.534  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_F: Enter: 0
+09-19 18:19:31.659  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+09-19 18:19:31.659  5925  5946 D AvrcpControllerService: onPlayStatusChanged 1
+09-19 18:19:31.660  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_STATUS_CHANGED Remote Connected true
+09-19 18:19:31.660  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:31.661  5925  5970 D AvrcpControllerService: Metadata is not broadcasted, ignoring.
+09-19 18:19:31.661  5925  5966 D A2dpSinkStateMachine: Connected process message: 303
+09-19 18:19:31.661  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_F:  process message: 3
+09-19 18:19:31.661  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_T: Enter: 3
+09-19 18:19:31.661  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_T:  process message: 3
+09-19 18:19:31.662  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_T: Current Audio Focus -1
+09-19 18:19:31.664  2632  2665 I MediaFocusControl:  AudioFocus  requestAudioFocus() from uid/pid 1002/5925 clientId=android.media.AudioManager@8e8de6dcom.android.bluetooth.a2dpsink.A2dpSinkStreamingStateMachine$1@43a1aa2 req=1 flags=0x0
+09-19 18:19:31.666  5925  6396 D AvrcpControllerService: getAvrcpControllerService(): returning com.android.bluetooth.avrcp.AvrcpControllerService@c26e333
+09-19 18:19:31.666  5925  6396 D A2dpSinkStreamingStateMachine: startAvrcpUpdates
+09-19 18:19:31.668  5925  5970 D AvrcpControllerService:  HandleMessage: 202 Remote Connected true
+09-19 18:19:31.668  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:31.669  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285183, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.671  2632  3652 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.671  2632  3652 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.671  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.671  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.671  2632  3652 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.671  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.671  2632  3652 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.677  5925  5970 D AvrcpUtils:  TrackInfo Metadata [artist=田馥甄 trackTitle= Loving Strangers (Live) albumTitle= To My Love 影音馆 genre=  trackNum= 19 track_len : 221466 TotalTracks 49]
+09-19 18:19:31.679  5925  5970 D AvrcpControllerService:  broadcastMetaDataChanged = Loving Strangers (Live), 田馥甄, To My Love 影音馆  0.0 19 49 221466 221466 
+09-19 18:19:31.680  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.683  2632  2668 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.683  2632  2668 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.683  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.683  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.683  2632  2668 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.683  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.683  2632  2668 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.688  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285183, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:31.689  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=1, position=0, buffered position=0, speed=0.0, updated=277160, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.690  5925  5925 D A2dpMediaBrowserService: prev MM title NOT_SUPPORTED track len 255
+09-19 18:19:31.690  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285183, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.694  5925  5962 V Avrcp   : Active sessions changed, 0 sessions
+09-19 18:19:31.694  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.695  1716  6391 V AudioFlinger: start(4096), calling pid 5925 session 41
+09-19 18:19:31.695  1716  6391 V AudioFlinger: ? => ACTIVE (4096) on thread 0xac05a000
+09-19 18:19:31.695  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: null mmd: android.media.MediaMetadata@23a76f0
+09-19 18:19:31.695  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 9,index 0,device 1024
+09-19 18:19:31.695  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.695  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 9, volume -90.631577, delay 0
+09-19 18:19:31.695  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.695  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.695  1716  2049 V AudioFlinger: thread 0xac318680 type 0 TID 2049 waking up
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2049 V AudioFlinger: acquireWakeLock_l() AudioOut_D status 0
+09-19 18:19:31.695  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.695  1716  2049 V AudioFlinger: updateWakeLockUids_l() AudioOut_D status 0
+09-19 18:19:31.696  1716  6391 V APM::AudioOutputDescriptor: changeRefCount() stream 3, count 1
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 1, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 2, device 2
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 3, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 4, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 5, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 6, device 2
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 7, device 400
+09-19 18:19:31.696  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 8, device 400
+09-19 18:19:31.697  1716  2004 V AudioFlinger: ThreadBase::setParameters() routing=1024
+09-19 18:19:31.697  1716  2004 V AudioFlinger: sendConfigEvent_l() num events 1 event 2
+09-19 18:19:31.699  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285210, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.700  5925  5925 D A2dpMediaBrowserService: prev MM title NOT_SUPPORTED track len 255
+09-19 18:19:31.700  5925  5925 D A2dpMediaBrowserService: msgTrack() mmd Loving Strangers (Live), 田馥甄, To My Love 影音馆
+09-19 18:19:31.722  1716  4262 V AudioFlinger: processConfigEvents_l() remaining events 1
+09-19 18:19:31.723  1716  4262 V AudioFlinger: processConfigEvents_l() DONE thread 0xabd03f00
+09-19 18:19:31.723  1716  2004 V AudioFlinger: sendConfigEvent_l() num events 1 event 3
+09-19 18:19:31.723  1716  2049 V AudioFlinger: processConfigEvents_l() remaining events 1
+09-19 18:19:31.723  1716  2049 D audio_hal: out_set_parameters kvpairs = routing=1024
+09-19 18:19:31.723  1716  2049 D audio_hal: func:out_set_parameters, 1024 ---> HISI_AO_CARD_ID(0, 0) 
+09-19 18:19:31.723  1716  2049 V AudioFlinger: processConfigEvents_l() DONE thread 0xac318680
+09-19 18:19:31.723  1716  2004 V AudioFlinger: setParameters(): io 46, keyvalue routing=1024, calling pid 1716
+09-19 18:19:31.723  1716  2004 V AudioFlinger: ThreadBase::setParameters() routing=1024
+09-19 18:19:31.724  1716  2004 V AudioFlinger: sendConfigEvent_l() num events 1 event 2
+09-19 18:19:31.754  1716  4262 V AudioFlinger: processConfigEvents_l() remaining events 1
+09-19 18:19:31.755  1716  4262 V AudioFlinger: processConfigEvents_l() DONE thread 0xabd03f00
+09-19 18:19:31.755  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.755  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 0,index 3,device 1024
+09-19 18:19:31.756  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.756  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 0, volume -30.457500, delay 0
+09-19 18:19:31.756  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.756  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.756  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.757  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 1,index 4,device 1024
+09-19 18:19:31.757  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.757  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 1, volume -27.958799, delay 0
+09-19 18:19:31.757  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.757  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.757  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.757  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 2,index 5,device 1024
+09-19 18:19:31.757  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.757  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 2, volume -26.020500, delay 0
+09-19 18:19:31.758  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.758  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 3,index 15,device 1024
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.758  1716  6391 E APM::AudioOutputDescriptor: changed 0
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 4,index 6,device 1024
+09-19 18:19:31.758  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.759  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 4, volume -24.436899, delay 0
+09-19 18:19:31.759  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.759  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.759  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.759  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 5,index 5,device 1024
+09-19 18:19:31.759  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.759  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 5, volume -26.020500, delay 0
+09-19 18:19:31.759  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.760  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.760  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.760  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.760  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 7,index 4,device 1024
+09-19 18:19:31.760  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.761  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 7, volume -27.958799, delay 0
+09-19 18:19:31.761  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.761  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.761  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.761  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 8,index 9,device 1024
+09-19 18:19:31.761  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.761  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 8, volume -20.915100, delay 0
+09-19 18:19:31.761  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.761  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.761  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.762  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.762  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 10,index 15,device 1024
+09-19 18:19:31.762  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.762  1716  6391 V APM::AudioOutputDescriptor: setVolume() for stream 10, volume -16.478100, delay 0
+09-19 18:19:31.762  1716  6391 E APM::AudioOutputDescriptor: changed 1
+09-19 18:19:31.762  1716  2004 E AudioFlinger: mAudioHwDevs.size() is 6
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.762  1716  2004 D AudioFlinger: setStreamVolume by set_master_volume
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 11,index 1,device 1024
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.763  1716  6391 E APM::AudioOutputDescriptor: changed 0
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: checkAndSetVolume stream 3,index 15,device 1024
+09-19 18:19:31.763  1716  6391 E APM_AudioPolicyManager: device 1024, popcount(device)1
+09-19 18:19:31.763  1716  6391 E APM::AudioOutputDescriptor: changed 0
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 3, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 1, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 2, device 2
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 3, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 0, device 400
+09-19 18:19:31.763  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 4, device 400
+09-19 18:19:31.764  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 5, device 400
+09-19 18:19:31.764  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 6, device 2
+09-19 18:19:31.764  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 7, device 400
+09-19 18:19:31.764  1716  6391 V APM::AudioPolicyEngine: getDeviceForStrategy() strategy 8, device 400
+09-19 18:19:31.764  1716  6391 V AudioFlinger: signal playback thread
+09-19 18:19:31.764  1716  2049 V AudioFlinger: track(0xac05a000) underrun,  framesReady(0) < framesDesired(886)
+09-19 18:19:31.764  1716  2049 V AudioFlinger: updateWakeLockUids_l() AudioOut_D status 0
+09-19 18:19:31.764  1716  2049 V AudioFlinger: anticipated start
+09-19 18:19:31.764  1716  2049 D audio_hal: pcm_open card:device(hw:0:0) flags(0x8) out(0xac7b2000)
+09-19 18:19:31.767  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+09-19 18:19:31.768  5925  5946 D AvrcpControllerService: onPlayStatusChanged 1
+09-19 18:19:31.769  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_STATUS_CHANGED Remote Connected true
+09-19 18:19:31.769  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:31.769  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_track_changed_callback
+09-19 18:19:31.770  5925  5946 D AvrcpControllerService: onTrackChanged 
+09-19 18:19:31.770  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285284, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.771  5925  5966 D A2dpSinkStateMachine: Connected process message: 303
+09-19 18:19:31.771  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_T:  process message: 3
+09-19 18:19:31.771  5925  6396 D A2dpSinkStreamingStateMachine.SRC_T_ACT_T: Current Audio Focus 1
+09-19 18:19:31.771  5925  6396 D AvrcpControllerService: getAvrcpControllerService(): returning com.android.bluetooth.avrcp.AvrcpControllerService@c26e333
+09-19 18:19:31.771  5925  6396 D A2dpSinkStreamingStateMachine: startAvrcpUpdates
+09-19 18:19:31.772  2632  2665 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.772  2632  2665 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.772  2632  2665 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.772  2632  2665 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.772  2632  2665 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.772  2632  2665 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.772  2632  2665 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.777  1716  2049 V AudioFlinger: track(0xac05a000) underrun,  framesReady(0) < framesDesired(886)
+09-19 18:19:31.780  5925  5970 D AvrcpControllerService:  HandleMessage: CB_TRACK_CHANGED Remote Connected true
+09-19 18:19:31.781  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:31.781  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.781  5925  5970 D AvrcpUtils:  TrackInfo Metadata [artist=田馥甄 trackTitle= Loving Strangers (Live) albumTitle= To My Love 影音馆 genre=  trackNum= 19 track_len : 221466 TotalTracks 49]
+09-19 18:19:31.781  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285284, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:31.782  5925  5970 D AvrcpControllerService:  broadcastMetaDataChanged = Loving Strangers (Live), 田馥甄, To My Love 影音馆  0.0 19 49 221466 221466 
+09-19 18:19:31.784  2632  3652 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.784  2632  3652 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.784  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.784  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.784  2632  3652 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.784  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.784  2632  3652 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.794  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=370, buffered position=0, speed=1.0, updated=285298, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.794  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:31.794  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285284, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.793  5925  5970 D AvrcpControllerService:  HandleMessage: 202 Remote Connected true
+09-19 18:19:31.795  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:31.795  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285310, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.796  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.797  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: null mmd: android.media.MediaMetadata@c1f469
+09-19 18:19:31.798  2632  2668 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.798  2632  2668 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.798  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.798  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.798  2632  2668 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.798  2632  2668 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.798  2632  2668 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.798  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=283, buffered position=0, speed=1.0, updated=285312, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.799  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:31.799  5925  5925 D A2dpMediaBrowserService: msgTrack() mmd Loving Strangers (Live), 田馥甄, To My Love 影音馆
+09-19 18:19:31.801  5925  5970 D AvrcpUtils:  TrackInfo Metadata [artist=田馥甄 trackTitle= Loving Strangers (Live) albumTitle= To My Love 影音馆 genre=  trackNum= 19 track_len : 221466 TotalTracks 49]
+09-19 18:19:31.801  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.802  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285310, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:31.802  5925  5970 D AvrcpControllerService:  broadcastMetaDataChanged = Loving Strangers (Live), 田馥甄, To My Love 影音馆  0.0 19 49 221466 221466 
+09-19 18:19:31.803  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=288, buffered position=0, speed=1.0, updated=285317, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.803  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:31.804  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=255, buffered position=0, speed=1.0, updated=285310, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.804  2632  3652 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:31.804  2632  3652 E ActivityManager: java.lang.Throwable
+09-19 18:19:31.804  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:31.804  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:31.804  2632  3652 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:31.804  2632  3652 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:31.804  2632  3652 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:31.807  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:31.808  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: null mmd: android.media.MediaMetadata@d433eee
+09-19 18:19:31.809  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=268, buffered position=0, speed=1.0, updated=285323, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:31.810  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:31.810  5925  5925 D A2dpMediaBrowserService: msgTrack() mmd Loving Strangers (Live), 田馥甄, To My Love 影音馆
+09-19 18:19:33.717  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_position_changed_callback
+09-19 18:19:33.717  5925  5946 D AvrcpControllerService: onPlayPositionChanged 
+09-19 18:19:33.718  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_POS_CHANGED Remote Connected true
+09-19 18:19:33.718  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:33.718  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=125261, buffered position=0, speed=1.0, updated=287233, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:33.723  2632  3675 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:33.723  2632  3675 E ActivityManager: java.lang.Throwable
+09-19 18:19:33.723  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:33.723  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:33.723  2632  3675 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:33.723  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:33.723  2632  3675 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:33.726  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:33.726  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=125261, buffered position=0, speed=1.0, updated=287233, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:33.728  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=2187, buffered position=0, speed=1.0, updated=287242, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:33.728  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:33.728  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=125261, buffered position=0, speed=1.0, updated=287233, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:34.555  4580  4592 I SPProvider: call uriPrefix: content://com.ktcp.tvvideo.REMOTE_SHARED_PREFERENCE, method: get
+09-19 18:19:35.082  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 SCAN TYPE=ONLY
+09-19 18:19:35.088  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:35.686  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_position_changed_callback
+09-19 18:19:35.686  5925  5946 D AvrcpControllerService: onPlayPositionChanged 
+09-19 18:19:35.687  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_POS_CHANGED Remote Connected true
+09-19 18:19:35.687  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:35.688  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=127245, buffered position=0, speed=1.0, updated=289203, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:35.690  2632  3991 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:35.690  2632  3991 E ActivityManager: java.lang.Throwable
+09-19 18:19:35.690  2632  3991 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:35.690  2632  3991 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:35.690  2632  3991 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:35.690  2632  3991 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:35.690  2632  3991 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:35.698  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:35.699  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=127245, buffered position=0, speed=1.0, updated=289203, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:35.700  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=127242, buffered position=0, speed=1.0, updated=289214, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:35.700  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:35.701  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=127245, buffered position=0, speed=1.0, updated=289203, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:37.477  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:37.491  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=0- MASK=0x29d87
+09-19 18:19:37.499  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:37.509  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=6- MASK=0x29d87
+09-19 18:19:37.519  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=54- MASK=0x29d87
+09-19 18:19:37.528  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=54- MASK=0x29d87
+09-19 18:19:37.544  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=94- MASK=0x29d87
+09-19 18:19:37.552  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=94- MASK=0x29d87
+09-19 18:19:37.568  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=100- MASK=0x29d87
+09-19 18:19:37.573  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=100- MASK=0x29d87
+09-19 18:19:37.578  2632  3384 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=104- MASK=0x29d87
+09-19 18:19:37.583  2632  3390 D WifiHW  : wifi command = IFNAME=wlan0 BSS RANGE=104- MASK=0x29d87
+09-19 18:19:37.588  3873  3873 D HiRMService: mNetReceiver onReceive --android.net.wifi.STATE_CHANGE
+09-19 18:19:37.682  5925  5946 I BluetoothAvrcpControllerJni: btavrcp_play_position_changed_callback
+09-19 18:19:37.682  5925  5946 D AvrcpControllerService: onPlayPositionChanged 
+09-19 18:19:37.684  5925  5970 D AvrcpControllerService:  HandleMessage: CB_PLAY_POS_CHANGED Remote Connected true
+09-19 18:19:37.684  5925  5970 D A2dpSinkService: getA2dpSinkService(): returning com.android.bluetooth.a2dpsink.A2dpSinkService@8e0889a
+09-19 18:19:37.684  5925  5970 D AvrcpControllerService:  broadcastPlayBackStateChanged = PlaybackState {state=3, position=129241, buffered position=0, speed=1.0, updated=291199, actions=0, custom actions=[], active item id=-1, error=null}
+09-19 18:19:37.687  2632  3675 E ActivityManager: Sending non-protected broadcast android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT from system 5925:com.android.bluetooth/1002 pkg com.android.bluetooth
+09-19 18:19:37.687  2632  3675 E ActivityManager: java.lang.Throwable
+09-19 18:19:37.687  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:17989)
+09-19 18:19:37.687  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18555)
+09-19 18:19:37.687  2632  3675 E ActivityManager:       at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+09-19 18:19:37.687  2632  3675 E ActivityManager:       at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2861)
+09-19 18:19:37.687  2632  3675 E ActivityManager:       at android.os.Binder.execTransact(Binder.java:565)
+09-19 18:19:37.694  5925  5925 D A2dpMediaBrowserService: onReceive intent=Intent { act=android.bluetooth.avrcp-controller.profile.action.TRACK_EVENT flg=0x10 (has extras) }
+09-19 18:19:37.695  5925  5925 D A2dpMediaBrowserService: msgTrack: playback: PlaybackState {state=3, position=129241, buffered position=0, speed=1.0, updated=291199, actions=0, custom actions=[], active item id=-1, error=null} mmd: null
+09-19 18:19:37.696  5925  5925 D A2dpMediaBrowserService: prevPS PlaybackState {state=3, position=129252, buffered position=0, speed=1.0, updated=291210, actions=54, custom actions=[], active item id=-1, error=null}
+09-19 18:19:37.697  5925  5925 D A2dpMediaBrowserService: prev MM title Loving Strangers (Live) track len 221466
+09-19 18:19:37.697  5925  5925 D A2dpMediaBrowserService: msgTrack() playbackstate PlaybackState {state=3, position=129241, buffered position=0, speed=1.0, updated=291199, actions=0, custom actions=[], active item id=-1, error=null}

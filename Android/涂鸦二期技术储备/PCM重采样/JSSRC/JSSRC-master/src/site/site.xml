@@ -1,0 +1,54 @@
+<project name="JSSRC Resampling Library">
+    <publishDate position="right" format="MM-dd-yyyy hh:mm"/>
+    <version position="right"/>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-stylus-skin</artifactId>
+        <version>1.2</version>
+    </skin>
+
+    <bannerLeft>
+        <name>JSSRC_LOGO</name>
+        <src>images/logo.png</src>
+        <href>http://github.com/hutm/JSSRC</href>
+    </bannerLeft>
+
+    <body>
+        <head>
+            <script type="text/javascript">
+
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-15936035-5']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+
+            </script>
+        </head>
+        <breadcrumbs>
+            <item name="JSSRC on github" href="http://github.com/hutm/JSSRC"/>
+        </breadcrumbs>
+        <links>
+            <item name="JSSRC" href="http://jssrc.khadkevich.org/"/>
+            <item name="JSSRC@GoogleGroups" href="http://groups.google.com/group/jssrc/"/>
+        </links>
+
+
+        <menu name="Home">
+            <item name="Index" href="index.html"/>
+            <item name="Release Notes" href="release-notes.html"/>
+            <item name="Repository" href="source-repository.html"/>
+            <item name="Downloads" href="downloads.html"/>
+            <item name="Help" href="help.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+
+
+</project>

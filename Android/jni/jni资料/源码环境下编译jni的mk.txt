@@ -1,0 +1,50 @@
+
+	源码下编译jni的mk文件的书写：
+		
+		LOCAL_PATH:= $(call my-dir)
+
+		include $(CLEAR_VARS)
+
+		LOCAL_SRC_FILES := ass_jni.cpp
+		
+		//LOCAL_PATH  指mk文件的当前路径
+		LOCAL_C_INCLUDES += \
+				$(LOCAL_PATH)/png/include/ \       
+				$(LOCAL_PATH)/ass/include/ \
+
+
+		LOCAL_SHARED_LIBRARIES := libpng \
+					libfreetype \
+					libfribidi \
+					libass \
+					libiconv \
+					liblog \
+			
+		LOCAL_MODULE := ass_jni
+		LOCAL_32_BIT_ONLY := true
+		LOCAL_MODULE_TAGS := optional
+
+		LOCAL_PRELINK_MODULE := false
+
+		include $(BUILD_SHARED_LIBRARY)
+		
+	
+	
+	
+	ndk下编译jni的mk文件的书写：
+		
+		LOCAL_PATH := $(call my-dir)
+		#
+		# libass_jni.so
+		#
+		include $(CLEAR_VARS)
+		LOCAL_C_INCLUDES += $(LOCAL_PATH)/../png/include/  \
+							$(LOCAL_PATH)/../ass/include/  \
+
+		LOCAL_SRC_FILES :=  ass_jni.cpp 
+		LOCAL_LDLIBS := -llog -lz -lGLESv2
+		LOCAL_SHARED_LIBRARIES := png freetype fribidi ass
+		LOCAL_MODULE := ass_jni
+		LOCAL_PRELINK_MODULE := false
+
+		include $(BUILD_SHARED_LIBRARY)

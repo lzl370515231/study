@@ -1,0 +1,78 @@
+
+	IInterface作用：
+		提供了IXXXService与IBinder互相转换的功能。Client拿到ServiceManager回传的IBinder以后，又要转换回IXXXService进行功能调用。
+		
+		IXXXService转换IBinder实现：
+			IXXXService继承自IInterface，所以IInterface中的asBinder()方法，会将自身，也就是IXXXService转换成一个IBinder对象。
+			
+			sp<IBinder> IInterface::asBinder()
+			{
+				return this ? onAsBinder() : NULL;
+			}
+			这个onAsBinder()是一个虚拟方法，实际上是有IInterface的两个子类BpInterface和BnInterface实现的。
+			BpInterface的实现：
+				inline IBinder* BpInterface<INTERFACE>::onAsBinder()
+				{
+					return remote(); //调用它的父类BpRefBase的remote()方法，返回IBinder，其实就是一个BpBinder
+				}
+			BnInterface的实现：
+				IBinder* BnInterface<INTERFACE>::onAsBinder()
+				{
+					return this; //就是返回自身，因为BnInterface就是从BBinder继承的，BBinder又是继承自IBinder
+				}
+		IBinder转换IXXXService实现：
+			当一个Client拿到ServiceManager返回的IBinder时，需要转换为IXXXService接口，才能调用它的功能。这个装换，是由IInterface中定义的宏DECLARE_META_INTERFACE来声明的asInterface完成的，并由IMPLEMENT_META_INTERFACE实现的。
+				
+				Android::sp<IXXXService> I##INTERFACE::asInterface(                
+					const android::sp<android::IBinder>& obj)                   
+
+					{                                                                   
+						android::sp<IXXXService> intr;                                 
+						if (obj != NULL){
+							intr = static_cast<IXXXService*>(
+							obj->queryLocalInterface(//先调用queryLocalInterface，这个方法是IBinder定义的，默认实现是返回NULL，而在BBinder的子类BnInterface中，重载了该方法，返回this，而//BpInterface并没有重载，使用IBinder的默认实现，返回NULL。
+							IXXXService::descriptor).get());
+							if (intr == NULL)
+							Unknown macro:{
+								intr = new BpXXXService(obj);
+								//如果queryLocalInterface返回NULL，就构造一个BpXXXService返回，Client得到的正是这个BpXXXService
+							}
+						}                          
+						return intr;               
+					}
+	
+
+	Binder的调用过程：
+		
+		class IXXXService:public IInterface{
+			....
+			public  void helloworld(const char* str);
+			....
+		}
+		
+			Client调用Service：
+				client得到一个BpXXXService以后
+					1. 会调用BpXXXService实现的helloworld,它会将str参数打包到Parcel中。然后调用remote()->transact(xxx)
+					2. remote()是在BpXXXService的父类BpRefBase中实现的，返回的就是一个BpBinder.实际上调用的就是BpBinder的transact
+					3. BpBinder的transact实现，就是直接调用IPCThreadState::self()->transact()发送数据。
+		
+			Service接收Client请求：
+				1. 通过IPCThreadState接收到client的请求后，首先会调用BBinder的transact方法
+				2. BBinder的transact方法又会调用子类实现的虚拟方法onTransact。这个虚拟方法是在BnXXXService中实现的
+				3. onTransact方法，会通过传递进来的参数来判断，需要调用IXXXService中的那些方法，示例中只有一个helloworld方法
+				4. 直接调用helloworld，就会找到它的真正实现，也就是BnXXXService的子类XXXService中的helloworld方法。
+			
+	
+			总结：
+				BpBinder并不在继承关系当中，它只是一个打包数据，并通过IPCThreadState::self()->transact()方法发送出去。而BBinder和BnXXXService的作用，就是接收IPCThreadState传递过来的信息，解包数据，并调用XXXService真正的实现。
+		
+	
+	DECLARE_META_INTERFACE() 与 IMPLEMENT_META_INTERFACE():
+		
+	
+	
+	client和service之间通过binder通信，但是两者都不会直接与Binder driver打交道，而是交给Binder Adapter来做。Binder Adapter由ProcessState和IPCThreadState组成。其中ProcessState类中包含了通信细节，利用open_binder打开Linux设备dev\binder。
+	
+	每个进程只有一个ProcessState对象，ProcessState是一个单例类型，其作用是维护当前进程中的所有Service代理。一个客户端进程可能需要多个Service的服务，这样可能会创建多个Service代理，客户端进程中的ProcessState对象就负责维护这些Service代理。
+	
+	每一个线程中都会有一个IPCThreadState对象，它主要负责Binder数据读取、写入和请求处理框架。

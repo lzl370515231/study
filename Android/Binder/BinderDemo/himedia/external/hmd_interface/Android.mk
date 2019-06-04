@@ -1,0 +1,19 @@
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_FORCE_STATIC_EXECUTABLE := true
+
+LOCAL_SRC_FILES:= \
+    rk_hmd_rk3368_privateinfo.c \
+
+LOCAL_MODULE_TAGS := optional
+
+LOCAL_SHARED_LIBRARIES := libcutils
+
+LOCAL_MODULE:= libhmd
+
+ALL_DEFAULT_INSTALLED_MODULES += $(LOCAL_MODULE)
+include $(BUILD_SHARED_LIBRARY)
+
+
+

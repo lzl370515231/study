@@ -1,0 +1,104 @@
+---- URLProtocol Matches (103 in 39 files) ----
+Async.c (libavformat):const URLProtocol ff_async_protocol = {
+Async.c (libavformat):const URLProtocol ff_async_test_protocol = {
+Avio.c (libavformat):static int url_alloc_for_protocol(URLContext **puc, const URLProtocol *up,
+Avio.c (libavformat):static const struct URLProtocol *url_find_protocol(const char *filename)
+Avio.c (libavformat):    const URLProtocol **protocols;
+Avio.c (libavformat):            const URLProtocol *up = protocols[i];
+Avio.c (libavformat):    const URLProtocol *p = NULL;
+Avio.c (libavformat):    const URLProtocol *p = url_find_protocol(url);
+Bluray.c (libavformat):const URLProtocol ff_bluray_protocol = {
+Cache.c (libavformat):const URLProtocol ff_cache_protocol = {
+Concat.c (libavformat):const URLProtocol ff_concat_protocol = {
+Crypto.c (libavformat):const URLProtocol ff_crypto_protocol = {
+Data_uri.c (libavformat):const URLProtocol ff_data_protocol = {
+File.c (libavformat):const URLProtocol ff_file_protocol = {
+File.c (libavformat):const URLProtocol ff_pipe_protocol = {
+Ftp.c (libavformat):const URLProtocol ff_ftp_protocol = {
+Gopher.c (libavformat):const URLProtocol ff_gopher_protocol = {
+Hlsproto.c (libavformat):const URLProtocol ff_hls_protocol = {
+Http.c (libavformat):const URLProtocol ff_http_protocol = {
+Http.c (libavformat):const URLProtocol ff_https_protocol = {
+Http.c (libavformat):const URLProtocol ff_httpproxy_protocol = {
+Icecast.c (libavformat):const URLProtocol ff_icecast_protocol = {
+Librtmp.c (libavformat):const URLProtocol ff_librtmp_protocol = {
+Librtmp.c (libavformat):const URLProtocol ff_librtmpt_protocol = {
+Librtmp.c (libavformat):const URLProtocol ff_librtmpe_protocol = {
+Librtmp.c (libavformat):const URLProtocol ff_librtmpte_protocol = {
+Librtmp.c (libavformat):const URLProtocol ff_librtmps_protocol = {
+Libsmbclient.c (libavformat):const URLProtocol ff_libsmbclient_protocol = {
+Libssh.c (libavformat):const URLProtocol ff_libssh_protocol = {
+Md5proto.c (libavformat):const URLProtocol ff_md5_protocol = {
+Mmsh.c (libavformat):const URLProtocol ff_mmsh_protocol = {
+Mmst.c (libavformat):const URLProtocol ff_mmst_protocol = {
+Prompeg.c (libavformat):const URLProtocol ff_prompeg_protocol = {
+Protocols.c (libavformat):extern const URLProtocol ff_async_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_bluray_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_cache_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_concat_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_crypto_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_data_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_ffrtmpcrypt_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_ffrtmphttp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_file_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_ftp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_gopher_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_hls_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_http_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_httpproxy_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_https_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_icecast_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_mmsh_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_mmst_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_md5_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_pipe_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_prompeg_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmpe_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmps_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmpt_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmpte_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtmpts_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_rtp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_sctp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_srtp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_subfile_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_tee_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_tcp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_tls_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_udp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_udplite_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_unix_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_librtmp_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_librtmpe_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_librtmps_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_librtmpt_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_librtmpte_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_libssh_protocol;
+Protocols.c (libavformat):extern const URLProtocol ff_libsmbclient_protocol;
+Protocols.c (libavformat):    const URLProtocol **p = *opaque;
+Protocols.c (libavformat):const URLProtocol **ffurl_get_protocols(const char *whitelist,
+Protocols.c (libavformat):    const URLProtocol **ret;
+Protocols.c (libavformat):        const URLProtocol *up = url_protocols[i];
+Rtmpcrypt.c (libavformat):const URLProtocol ff_ffrtmpcrypt_protocol = {
+Rtmphttp.c (libavformat):const URLProtocol ff_ffrtmphttp_protocol = {
+Rtmpproto.c (libavformat):const URLProtocol ff_##flavor##_protocol = {     \
+Rtpproto.c (libavformat):const URLProtocol ff_rtp_protocol = {
+Sctp.c (libavformat):const URLProtocol ff_sctp_protocol = {
+Srtpproto.c (libavformat):const URLProtocol ff_srtp_protocol = {
+Subfile.c (libavformat):const URLProtocol ff_subfile_protocol = {
+Tcp.c (libavformat):const URLProtocol ff_tcp_protocol = {
+Teeproto.c (libavformat):const URLProtocol ff_tee_protocol = {
+Tls_gnutls.c (libavformat):const URLProtocol ff_tls_protocol = {
+Tls_libtls.c (libavformat):const URLProtocol ff_tls_protocol = {
+Tls_openssl.c (libavformat):const URLProtocol ff_tls_protocol = {
+Tls_schannel.c (libavformat):const URLProtocol ff_tls_protocol = {
+Tls_securetransport.c (libavformat):const URLProtocol ff_tls_protocol = {
+Udp.c (libavformat):const URLProtocol ff_udp_protocol = {
+Udp.c (libavformat):const URLProtocol ff_udplite_protocol = {
+Unix.c (libavformat):const URLProtocol ff_unix_protocol = {
+Url.h (libavformat):    const struct URLProtocol *prot;
+Url.h (libavformat):typedef struct URLProtocol {
+Url.h (libavformat):} URLProtocol;
+Url.h (libavformat):const URLProtocol **ffurl_get_protocols(const char *whitelist,
+Utils.c (libavformat):    //We could use URLProtocol flags here but as many user applications do not use URLProtocols this would be unreliable
