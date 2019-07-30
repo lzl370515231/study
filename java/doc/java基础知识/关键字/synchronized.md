@@ -4,5 +4,7 @@ java中synchronized关键字是同步锁，同步锁是依赖于对象而存在�
 
 ## 原理
 
+# volatile
+
 
 
