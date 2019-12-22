@@ -1,0 +1,1 @@
+tinycap /sdcard/record.pcm -D 0 -d 1 -c 8 -r 16000 -b 16 -p 1024 -n 3

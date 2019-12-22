@@ -684,6 +684,9 @@ int I420Mirror(const uint8* src_y, int src_stride_y,
                uint8* dst_u, int dst_stride_u,
                uint8* dst_v, int dst_stride_v,
                int width, int height) {
+				   
+				   
+				   
   int halfwidth = (width + 1) >> 1;
   int halfheight = (height + 1) >> 1;
   if (!src_y || !src_u || !src_v || !dst_y || !dst_u || !dst_v ||

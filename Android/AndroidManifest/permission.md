@@ -1,0 +1,14 @@
+### \<permission>
+
+#### 语法
+
+```xml
+<permission android:description="string resource"
+            android:icon="drawable resource"
+            android:label="string resource"
+            android:name="string"
+            android:permissionGroup="string"
+            android:protectionLevel=["normal" | "dangerous" |
+                                     "signature" | "signatureOrSystem"] />
+```
+

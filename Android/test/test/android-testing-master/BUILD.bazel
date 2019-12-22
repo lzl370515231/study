@@ -1,0 +1,23 @@
+load("@rules_jvm_external//:defs.bzl", "artifact")
+load("//:common_defs.bzl", "androidxLibVersion", "coreVersion", "espressoVersion", "extJUnitVersion", "extTruthVersion", "rulesVersion", "runnerVersion")
+
+licenses(["notice"])  # Apache 2.0
+
+android_library(
+    name = "test_deps",
+    visibility = ["//visibility:public"],
+    exports = [
+        artifact("androidx.annotation:annotation"),
+        artifact("androidx.test.espresso:espresso-core"),
+        artifact("androidx.test:rules"),
+        artifact("androidx.test:runner"),
+        artifact("androidx.test:monitor"),
+        artifact("androidx.test.ext:junit"),
+        artifact("androidx.test:core"),
+        artifact("com.google.guava:guava"),
+        artifact("com.google.inject:guice"),
+        artifact("javax.inject:javax.inject"),
+        artifact("junit:junit"),
+        artifact("org.hamcrest:java-hamcrest"),
+    ],
+)

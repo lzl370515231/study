@@ -1,0 +1,13 @@
+### \<path-permission>
+
+#### 语法
+
+```xml
+<path-permission android:path="string"
+                 android:pathPrefix="string"
+                 android:pathPattern="string"
+                 android:permission="string"
+                 android:readPermission="string"
+                 android:writePermission="string" />
+```
+
