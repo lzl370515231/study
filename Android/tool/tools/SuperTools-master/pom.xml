@@ -10,7 +10,7 @@
 
     <properties>
         <springframework.version>4.1.7.RELEASE</springframework.version>
-        <httpclient.version>4.5.2</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <netty.version>4.0.19.Final</netty.version>
         <servlet.version>2.5</servlet.version>
         <dubbo.version>2.4.10</dubbo.version>
